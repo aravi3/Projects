@@ -1,0 +1,12 @@
+<h1>Sub Reddit</h1>
+
+<ul>
+  <% @sub.posts.each do |post| %>
+    <li> <%= link_to post.title, post_url(post) %>
+        <%= post.content %>
+        <%= link_to "Edit Post", edit_post_url(post) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Post", new_post_url %>

@@ -1,0 +1,42 @@
+#disc0 {
+  width: 100px;
+  height: 30px;
+  background: blue;
+  border-radius: 40px;
+  margin: 5px auto;
+}
+
+#disc1 {
+  width: 150px;
+  height: 30px;
+  background: blue;
+  border-radius: 40px;
+  margin: 5px auto;
+}
+
+#disc2 {
+  width: 180px;
+  height: 30px;
+  background: blue;
+  border-radius: 40px;
+  margin: 5px auto;
+  /*display: inline-block;*/
+}
+
+ul {
+  width: 230px;
+  height: 100px;
+  margin: 20px;
+  position: relative;
+  left: 40%;
+  top: 300px;
+  float: left;
+  border-bottom: 2px solid black;
+  list-style-type: none;
+  background-color: LightGrey;
+}
+
+body {
+  width: 1100px;
+  height: 1100px;
+}

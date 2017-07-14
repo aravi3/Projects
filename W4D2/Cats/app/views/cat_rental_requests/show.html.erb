@@ -1,0 +1,25 @@
+
+    <h1>Cat Rental Requests</h1>
+
+    <% @cat_rental_requests.each do |request| %>
+      <h2><%= request.id %></h2>
+      <table border="2">
+        <tr>
+          <td style="font-weight:bold">Cat Name</td>
+          <td><%= @cats.find(request.cat_id).name %></td>
+        </tr>
+        <tr>
+          <td style="font-weight:bold">Start Date</td>
+          <td><%= request.start_date %></td>
+        </tr>
+        <tr>
+          <td style="font-weight:bold">End Date</td>
+          <td><%= request.end_date %></td>
+        </tr>
+        <tr>
+          <td style="font-weight:bold">Status</td>
+          <td><%= request.status %></td>
+        </tr>
+      </table>
+      <br><br>
+    <% end %>

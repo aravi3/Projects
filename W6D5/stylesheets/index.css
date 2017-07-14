@@ -1,0 +1,37 @@
+body {
+  font-family:  Oswald, cursive, fantasy,;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.clock {
+  display: flex;
+  justify-content: center;
+}
+
+div.clock section {
+  background-image: url("../assets/myBigBen.jpg");
+  height: 200px;
+  width: 320px;
+  color: white;
+}
+
+div.weather {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.weather section {
+  background-image: url("../assets/weatherReport.jpg");
+  height: 200px;
+  width: 320px;
+
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+
+}

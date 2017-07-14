@@ -1,0 +1,33 @@
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 2px solid black;
+  float: left;
+  list-style-type: none;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+.markedO {
+  background-image: url(../O-7.jpg);
+  background-size: 200px 200px;
+}
+
+.markedX {
+  background-size: 200px 200px;
+  background-image: url(../xImage.jpg);
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  width: 900px;
+  height: 900px;
+}
